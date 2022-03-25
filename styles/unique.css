@@ -1,167 +1,191 @@
 @media (min-width: 768px) {
-    .modal-xl {
-      width: 90%;
-     max-width:1200px;
-    }
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
 }
 
 .navbar-expand-sm .navbar-collapse {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card-body {
-    height: 400px;
+  height: 400px;
 }
 
 .img-thumbnail {
-    height: 250px;
+  height: 250px;
 }
 
 #nav {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    height:60px;
-    top: 0;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  height: 60px;
+  top: 0;
 }
 #about {
-    height:900px; 
-    overflow:auto;
+  height: 900px;
+  overflow: auto;
 }
 #projects {
-    height:1100px; 
-    overflow:auto;
+  height: 1100px;
+  overflow: auto;
 }
 #blogs {
-    height:850px; overflow:auto;
+  height: 850px;
+  overflow: auto;
 }
 #contact {
-    height:700px; overflow:auto;
+  height: 700px;
+  overflow: auto;
 }
 
 .carl {
-    height: 500px;
+  height: 500px;
 }
 
 .carl-title {
-    font-weight: 800;
-    font-size: 100px;
+  font-weight: 800;
+  font-size: 100px;
 }
 
 /* Extra Large to Extra Extra*/
 @media (min-width: 1400px) and (max-width: 1800px) {
-    .card-body {
-        height: 550px;
-    }
-    #projects {
-        height:1200px; 
-        overflow:auto;
-    }
+  .card-body {
+    height: 550px;
+  }
+  #projects {
+    height: 1200px;
+    overflow: auto;
+  }
 
-    .img-thumbnail {
-        height: 200px;
-    }
+  .img-thumbnail {
+    height: 200px;
+  }
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
 }
 
 /* Extra Large to Extra Extra*/
 @media (min-width: 1200px) and (max-width: 1399px) {
-    #projects {
-        height:1300px; 
-        overflow:auto;
-    }
-    .card-body {
-        height: 650px;
-    }
+  #projects {
+    height: 1300px;
+    overflow: auto;
+  }
+  .card-body {
+    height: 650px;
+  }
 
-    .img-thumbnail {
-        height: 150px;
-    }
+  .img-thumbnail {
+    height: 150px;
+  }
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
 }
-
 
 /* This media query works for medium screen devices (All devices with resolution from 992px to 1199px), for example Computers */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #projects {
-        height:3500px; 
-        overflow:auto;
-    }
-    .card-body {
-        height: 200px;
-    }
+  #projects {
+    height: 3500px;
+    overflow: auto;
+  }
+  .card-body {
+    height: 200px;
+  }
 
-    .img-thumbnail {
-        height: 350px;
-    }
+  .img-thumbnail {
+    height: 350px;
+  }
 
-    .carl-title {
-        font-weight: 800;
-        font-size: 75px;
-    }
+  .carl-title {
+    font-weight: 800;
+    font-size: 75px;
+  }
+  .modal-xl {
+    max-width: 900px;
+  }
 }
 
 /* This media query works for small screen devices (All devices with resolution from 768px to 991px), for example tablets */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #projects {
-        height:3000px; 
-        overflow:auto;
-    }
-    .card-body {
-        height: 200px;
-    }
+  #projects {
+    height: 3000px;
+    overflow: auto;
+  }
+  .card-body {
+    height: 200px;
+  }
 
-    .carl-title {
-        font-weight: 800;
-        font-size: 75px;
-    }
+  .carl-title {
+    font-weight: 800;
+    font-size: 75px;
+  }
+  .modal-xl {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /* small*/
 
-@media (min-width:575px) and (max-width: 767px) {
-    #projects {
-        height:3400px; 
-        overflow:auto;
-    }
-    .card-body {
-        height: 250px;
-    }
+@media (min-width: 575px) and (max-width: 767px) {
+  #projects {
+    height: 3400px;
+    overflow: auto;
+  }
+  .card-body {
+    height: 250px;
+  }
 
-    .img-thumbnail {
-        height: 250px;
-    }
+  .img-thumbnail {
+    height: 250px;
+  }
 
-    .carl-title {
-        font-weight: 800;
-        font-size: 50px;
-    }
+  .carl-title {
+    font-weight: 800;
+    font-size: 50px;
+  }
 
-    .carl {
-        height: 350px;
-    }
+  .carl {
+    height: 350px;
+  }
+  .modal-xl {
+    width: 600px;
+    margin: 30px auto;
+  }
 }
 
 /*extra small*/
 @media (max-width: 574px) {
-    #projects {
-        height:3600px; 
-        overflow:auto;
-    }
-    .card-body {
-        height: 320px;
-    }
+  #projects {
+    height: 3600px;
+    overflow: auto;
+  }
+  .card-body {
+    height: 320px;
+  }
 
-    .img-thumbnail {
-        height: 250px;
-    }
+  .img-thumbnail {
+    height: 250px;
+  }
 
-    .carl-title {
-        font-weight: 800;
-        font-size: 45px;
-    }
+  .carl-title {
+    font-weight: 800;
+    font-size: 45px;
+  }
 
-    .carl {
-        height: 350px;
-    }
+  .carl {
+    height: 350px;
+  }
+  .modal-xl {
+    width: 400px;
+    margin: 30px auto;
+  }
 }
