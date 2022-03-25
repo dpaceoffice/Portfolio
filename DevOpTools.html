@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/unique.css">
+    <title>Dev Op Tool Project</title>
+</head>
+
+<body class="bg-dark text-white text-center">
+    <div id="nav container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light container-fluid">
+            <a class="navbar-brand" id="home" href="index.html#">
+                <i class="bi bi-house"></i>
+            </a>
+        </nav>
+    </div>
+    <div class="container mt-5">
+        <h2>What is Dev Op Tool?</h2>
+        <hr>
+        <p>Dev OP Tool is a proprietary fullstack desktop application. For that reason it is not publically avaliable
+            for
+            viewing, and the images have data redacted for security purposes. The frontend is designed using Java's
+            Swing
+            API, and the backend uses a combination of Java and Python to do a
+            series of tasks. Persistent memory is stored and retrieved from a normalized SQLite database.
+            I created this tool to aid me in doing time consuming,
+            repeatative tasks for the network technician position at my university. Eventually it became a tool used
+            often
+            by UNO's entire IT team.
+            Dev OP Tool is capable of scanning for hosts on UNO's network and determining what subnet they are on and
+            where
+            they are linked onto the network.
+            Futhermore, it can be used to sync together equipment on our network monitoring systems. This aids UNO's IT
+            in
+            maintaining our systems and detecting issues as they occur.
+            Finally, Dev OP Tool is capable of creating backups of all network equipment to be stored on a TFTP server.
+            When
+            a user is communicating sensitive data to the server it is encrypted using a combination of RSA and AES
+            encryption. This serves as a way to prevent successful
+            man-in-the-middle attacks on the tool's server or host's session.
+        </p>
+        <div id="dev-images">
+            <div class="row mt-5 text-center align-content-center">
+                <div class="col-sm mb-5">
+                    <p>Home Page</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imgModal">
+                        <img src="assets/images/devhome.png" class="mw-75 w-100"
+                            style="max-width:601px; max-height:500px;" /></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="imgModal" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Dev Op Tool Home Screen
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body container-fluid">
+                                    <img src="assets/images/devhome.png" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-5">
+                    <p>Network Scans</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imgModal2">
+                        <img src="assets/images/devscans.png" class="mw-75 w-100"
+                            style="max-width:601px; max-height:500px;" /></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="imgModal2" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Dev Op Tool Home Screen
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body container-fluid">
+                                    <img src="assets/images/devscans.png" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-5">
+                    <p>NMS Manager</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imgModal3">
+                        <img src="assets/images/devNMS.png" class="mw-75 w-100"
+                            style="max-width:601px; max-height:500px;" /></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="imgModal3" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Dev Op Tool Home Screen
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body container-fluid">
+                                    <img src="assets/images/devNMS.png" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-5">
+                    <p>Backup Generator</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#imgModal4">
+                        <img src="assets/images/devbackups.png" class="mw-75 w-100"
+                            style="max-width:601px; max-height:500px;" /></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="imgModal4" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Dev Op Tool Home Screen
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body container-fluid">
+                                    <img src="assets/images/devbackups.png" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>The images above are expandable by clicking them.</p>
+    </div>
+    </div>
+    <iframe src='footer.html' class="w-100" scrolling="no"></iframe>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
