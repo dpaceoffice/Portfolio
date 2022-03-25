@@ -186,6 +186,7 @@
   }
   .modal-xl {
     width: 400px;
+    height: 800px;
     margin: 30px auto;
   }
 }
