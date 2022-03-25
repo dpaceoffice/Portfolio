@@ -3,7 +3,7 @@
 }
 
 .card-body {
-    height: 300px;
+    height: 400px;
 }
 
 .img-thumbnail {
@@ -22,7 +22,7 @@
     overflow:auto;
 }
 #projects {
-    height:1000px; 
+    height:1100px; 
     overflow:auto;
 }
 #blogs {
@@ -44,10 +44,10 @@
 /* Extra Large to Extra Extra*/
 @media (min-width: 1400px) and (max-width: 1800px) {
     .card-body {
-        height: 400px;
+        height: 550px;
     }
     #projects {
-        height:950px; 
+        height:1200px; 
         overflow:auto;
     }
 
@@ -59,11 +59,11 @@
 /* Extra Large to Extra Extra*/
 @media (min-width: 1200px) and (max-width: 1399px) {
     #projects {
-        height:3000px; 
+        height:1300px; 
         overflow:auto;
     }
     .card-body {
-        height: 500px;
+        height: 650px;
     }
 
     .img-thumbnail {
@@ -76,7 +76,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #projects {
-        height:2800px; 
+        height:3500px; 
         overflow:auto;
     }
     .card-body {
@@ -97,7 +97,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     #projects {
-        height:2500px; 
+        height:3000px; 
         overflow:auto;
     }
     .card-body {
@@ -114,7 +114,7 @@
 
 @media (min-width:575px) and (max-width: 767px) {
     #projects {
-        height:2900px; 
+        height:3400px; 
         overflow:auto;
     }
     .card-body {
@@ -138,7 +138,7 @@
 /*extra small*/
 @media (max-width: 574px) {
     #projects {
-        height:3200px; 
+        height:3600px; 
         overflow:auto;
     }
     .card-body {
