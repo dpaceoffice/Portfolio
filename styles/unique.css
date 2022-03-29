@@ -50,6 +50,7 @@
   font-size: 100px;
 }
 
+
 /* Extra Large to Extra Extra*/
 @media (min-width: 1400px) and (max-width: 1800px) {
   .card-body {
