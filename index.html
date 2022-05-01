@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portfolio Website" />
+    <meta name="image" property="og:image" content="%PUBLIC_URL%/assets/images/example.png" />
+    <meta name="author" content="David Pace" />
+    <meta property="og:description" content="Portfolio Website by David Pace" />
+    <meta property="og:url" content="https://davidpacejr.com" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/bootstrap-icons.css">
@@ -21,7 +26,8 @@
                 <a class="navbar-brand" id="home" href="#">
                     <i class="bi bi-house"></i>
                 </a>
-                <button id="navbar-toggler" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <button id="navbar-toggler" class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-options">
                     <i class="navbar-toggler-icon"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-options">
@@ -59,7 +65,7 @@
 
         function toggle() {
             const menuToggle = document.getElementById('navbar-toggler');
-            if($(window).width() < 574) {
+            if ($(window).width() < 574) {
                 menuToggle.click()
             }
         }
